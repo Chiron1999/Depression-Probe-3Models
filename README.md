@@ -63,7 +63,7 @@ tar -zxvf CFA_Dataset.tar.gz
 pip install -r requirements.txt
 ```
 
-7. Prepare the input Drosophila chromosomal regions (ver. DM6).
+7. Prepare the input Drosophila CRM chromosomal regions (ver. DM6).
    Multiple chromosomal regions can be provided in the same input file.
    
    The input format **SHOULD** followed the following formats:
