@@ -19,7 +19,7 @@ Here is an example:
 conda create -n "CFA" python=3.8.13
 ```
 
-4. Activate your CFA Conda environment. 
+3. Activate your CFA Conda environment. 
 
 ```
 conda activate CFA
