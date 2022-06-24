@@ -123,7 +123,7 @@ The CRM is identified to have promoter and insulator functions. And the output p
 
 >* The SHAP value plots
 >
-![](https://i.imgur.com/pSYD7Un.png)
+![](https://i.imgur.com/FOzEOr3.png)
 >* The standardized ChIP-seq score plots
 >
-![](https://i.imgur.com/FEazuim.png)
+![](https://i.imgur.com/SzQH7e1.png)
