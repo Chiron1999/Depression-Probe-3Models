@@ -119,11 +119,11 @@ Take X\_8305146_8307354 from the above input as an example.
 
 The CRM is identified to have promoter and insulator functions. And the output plots for this CRM is in the subdirectory output/X\_8305146_8307354.
 
-![](SHAP.jpg)
+
 
 >* The SHAP value plots
 >
-![](Scores.jpg)
+![](SHAP.jpg)
 >* The standardized ChIP-seq score plots
 >
-![](https://i.imgur.com/SzQH7e1.png)
+![](Scores.jpg)
