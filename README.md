@@ -63,6 +63,13 @@ tar -zxvf CFA_Dataset.tar.gz
 pip install -r requirements.txt
 ```
 
+CFA can also support GPU acceleration. If you want to utilize GPU, please run the following command instead:
+
+```
+pip install -r requirements_gpu.txt
+```
+
+
 7. Prepare the input Drosophila CRM chromosomal regions (ver. DM6).
    Multiple chromosomal regions can be provided in the same input file.
    
