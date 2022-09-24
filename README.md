@@ -30,7 +30,7 @@ conda activate CFA
 1. Download the codes from the following link and unzip the file. Please skip it if you have done this step.
 
 ```
-wget https://cobis.bme.ncku.edu.tw/CFA/CFA_Model.tar.gz
+wget https://cobis-fs.bme.ncku.edu.tw/CFA/CFA_Model.tar.gz
 ```
 
 2. Unzip the file.
@@ -48,7 +48,7 @@ cd CFA_Model
 4. Download the processed epigenetic datasets from the following link.
 
 ```
-wget https://cobis.bme.ncku.edu.tw/CFA/CFA_Dataset.tar.gz
+wget https://cobis-fs.bme.ncku.edu.tw/CFA/CFA_Dataset.tar.gz
 ```
 
 5. Unzip the file.
