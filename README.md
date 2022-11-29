@@ -1,5 +1,7 @@
+#*CFA (CRM Function Annotator)*
+
 # Related paper:
-Tzu-Hsien Yang*, Yu-Huai Yu+, Shang-Hang Wu+, Fang-Yuan Zhang+, "CFA: an explainable deep learning model for cis-regulatory module transcriptional role annotation based on epigenetic codes". (Submitting)
+Tzu-Hsien Yang*, Yu-Huai Yu+, Shang-Hang Wu+, Fang-Yuan Zhang+, "CFA: an explainable deep learning model for cis-regulatory module transcriptional role annotation based on epigenetic codes", Computers in Biology and Medicine, 2022.
 
 +: These authors contributed equally.
 
@@ -89,7 +91,7 @@ python main.py -i <input_csv_file> -o <output_directory>
 ```
 >**Required arguments:**
 >
->* -i: The input file of the CFA Model.
+>* -i: The input file for the CFA Model.
 >
 >* -o: The output directory of the predicted results and SHAP bar plots.
 
