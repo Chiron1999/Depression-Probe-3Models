@@ -1,11 +1,11 @@
-#*CFA (CRM Function Annotator)*
+# CFA (CRM Function Annotator)
 
-# Related paper:
+## Related paper:
 Tzu-Hsien Yang*, Yu-Huai Yu+, Shang-Hang Wu+, Fang-Yuan Zhang+, "CFA: an explainable deep learning model for cis-regulatory module transcriptional role annotation based on epigenetic codes", Computers in Biology and Medicine, 2022.
 
 +: These authors contributed equally.
 
-# Prepare the Environment
+## Prepare the Environment
 
 Suggested running environments: Linux Ubuntu 16.04.6, Python 3.8.13
 
@@ -27,7 +27,7 @@ conda create -n "CFA" python=3.8.13
 conda activate CFA
 ```
 
-## **Steps to Use CFA**
+## Steps to Use CFA
 
 1. Download the codes from the following link and unzip the file. Please skip it if you have done this step.
 
