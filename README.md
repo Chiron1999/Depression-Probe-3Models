@@ -22,13 +22,13 @@ Here is an example:
 conda create -n "Probe_env" python=3.8.13
 ```
 
-3. Activate your CFA Conda environment. 
+3. Activate your Predicition tool Conda environment. 
 
 ```
 conda activate Probe_env
 ```
 
-## Steps to Use CFA
+## Steps to Use Predicition tool
 
 1. Download the codes from the following link and unzip the file. Please skip it if you have done this step.
 
