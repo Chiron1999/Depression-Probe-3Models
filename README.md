@@ -54,7 +54,15 @@ cd Depression_Probe_3Models
 ```
 pip install -r requirements.txt
 ```
+DL SHAP Rank
+<img width="949" height="520" alt="image" src="https://github.com/user-attachments/assets/425e647d-a4c8-4dea-b3f6-6877b3b53326" />
+LR SHAP Rank
+<img width="949" height="586" alt="image" src="https://github.com/user-attachments/assets/241446ad-dea7-48bb-adcc-7f23c19d4a19" />
+SVM SHAP Rank
+<img width="957" height="568" alt="image" src="https://github.com/user-attachments/assets/122e18ed-089b-4c0a-bc4f-7864bf6b81bc" />
 
+Three Model Top 50 probes Overlap
+<img width="598" height="477" alt="image" src="https://github.com/user-attachments/assets/52ef96a7-1edd-4850-b693-dcc5594a062e" />
 
 5. Prepare the input Drosophila CRM chromosomal regions (ver. DM6).
    Multiple chromosomal regions can be provided in the same input file.
