@@ -1,7 +1,8 @@
-# CFA (CRM Function Annotator)
+# Depression-Probe-3Models
+
 
 ## Related paper:
-Tzu-Hsien Yang*, Yu-Huai Yu+, Shang-Hang Wu+, Fang-Yuan Zhang+, "CFA: an explainable deep learning model for cis-regulatory module transcriptional role annotation based on epigenetic codes", Computers in Biology and Medicine, 2022.
+Tzu-Hsien Yang*, En-Hsun Cheng+, "Depression-Probe-3Models: An inference-only probe-to-depression classifier (DL/SVM/LR) with per-sample probability outputs, SHAP-based explanations, cross-model Venn analysis of top features, and probe-to-gene mapping." Computers in Biology and Medicine, 2025.
 
 +: These authors contributed equally.
 
@@ -15,16 +16,16 @@ Here is an example:
 
 1. Install the Conda package for you system. The installation of the package can be found <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">here</a>. 
 
-2. Create the CFA Conda environment. This may take a while, depending on the network status.
+2. Create the Conda environment. This may take a while, depending on the network status.
 
 ```
-conda create -n "CFA" python=3.8.13
+conda create -n "Probe_env" python=3.8.13
 ```
 
 3. Activate your CFA Conda environment. 
 
 ```
-conda activate CFA
+conda activate Probe_env
 ```
 
 ## Steps to Use CFA
@@ -32,47 +33,30 @@ conda activate CFA
 1. Download the codes from the following link and unzip the file. Please skip it if you have done this step.
 
 ```
-wget https://cobis-fs.bme.ncku.edu.tw/CFA/CFA_Model.tar.gz
+wget 
 ```
 
 2. Unzip the file.
 
 ```
-tar -zxvf CFA_Model.tar.gz
+tar -zxvf .tar.gz
 ```
 
 3. Change the working directory.
 
 ```
-cd CFA_Model
+cd Depression_Probe_3Models
 ```
 
-4. Download the processed epigenetic datasets from the following link.
 
-```
-wget https://cobis-fs.bme.ncku.edu.tw/CFA/CFA_Dataset.tar.gz
-```
-
-5. Unzip the file.
-
-```
-tar -zxvf CFA_Dataset.tar.gz
-```
-
-6. If this is the first time you use CFA, run the following command to install necessary packages. 
+4. If this is the first time you use This tool, run the following command to install necessary packages. 
 
 ```
 pip install -r requirements.txt
 ```
 
-CFA can also support GPU acceleration. If you want to utilize GPU, please run the following command instead:
 
-```
-pip install -r requirements_gpu.txt
-```
-
-
-7. Prepare the input Drosophila CRM chromosomal regions (ver. DM6).
+5. Prepare the input Drosophila CRM chromosomal regions (ver. DM6).
    Multiple chromosomal regions can be provided in the same input file.
    
    The input format **SHOULD** followed the following formats:
